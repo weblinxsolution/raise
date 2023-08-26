@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+html,
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.sidenavigation {
+    background: #002C11;
+    width: 15%;
+    padding: 2rem 1.5rem;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* width */
+.sidenavigation::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.sidenavigation::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.sidenavigation ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.sidenavigation::-webkit-scrollbar-thumb:hover {
+    background: #002C11;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.sidenavigation ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidenavigation ul li a {
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+}
+
+.main-content {
+    padding: 2rem;
+    width: 85%;
+    background-color: #F1F5F9;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-content h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-details h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.profile-details p {
+    color: #475569;
+    font-size: 13px;
+}
+
+.cards_section {
+    padding: 2.2rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-cards {
+    border-radius: 4px;
+    background: #FFF;
+    width: 32%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cards-dates h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cards-dates p {
+    color: #475569;
+    font-size: 13px;
+}
+
+.cards-price {
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cards-price span {
+    font-size: 14px;
+    color: #475569;
+}
+
+.chart-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    color: #475569;
+}
+
+.chart-line img {
+    width: 100%;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.chart-points {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ball {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ball div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.ball span {
+    font-weight: 600;
+}
+
+.basic div {
+    background-color: #002C11;
+}
+
+.intermediate div {
+    background-color: #028230;
+}
+
+.our div {
+    background-color: #0ACA4F;
+}
+
+.clients_section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.client_box {
+    border-radius: 4px;
+    background: #FFF;
+    width: 30%;
+    padding: 18px 25px;
+}
+
+.client-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-header-text h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.client-header-text p {
+    color: #475569;
+    font-size: 14px;
+}
+
+.client-header button {
+    border-radius: 6px;
+    background: #002C11;
+    color: #FFF;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: .4s all;
+    border: 1px solid transparent;
+}
+
+.client-header button:hover {
+    background-color: #FFF;
+    color: #002C11;
+    border-color: #002C11;
+}
+
+.cleint-items-box {
+    margin-top: 20px;
+}
+
+.cleint-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.cleint-items h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cleint-items button {
+    border-radius: 8px;
+    border: 1px solid #CBD5E1;
+    padding: 6px 12px;
+    color: #002C11;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .4s all;
+}
+
+.cleint-items button:hover {
+    background-color: #002C11;
+    color: #FFF;
+}
+
+.registration-box {
+    border-radius: 4px;
+    background: #FFF;
+    width: 67.9%;
+    height: 100%;
+    padding: 25px;
+}
+
+.registration-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registration-header h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.registration-header button {
+    border-radius: 6px;
+    background: #002C11;
+    color: #FFF;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: .4s all;
+    border: 1px solid transparent;
+}
+
+.registration-header button:hover {
+    background-color: #FFF;
+    color: #002C11;
+    border-color: #002C11;
+}
+
+.registration-header p {
+    color: #475569;
+    font-size: 14px;
+}
+
+.reg-table table {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.reg-table table tr th {
+    text-align: inherit;
+}
+
+.reg-table table tr td {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/* Responsive Screens */
+
+@media(max-width:1527.27px) {
+    .sidenavigation ul li a {
+        font-size: small;
+    }
+}
+
+@media(max-width:1400px) {
+    .sidenavigation {
+        padding: 2rem 1rem;
+    }
+
+    .sidenavigation ul li a {
+        padding: 12px 10px;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+
+    .our-cards {
+        padding: 18px;
+    }
+
+    .chart-circle img {
+        width: 220px !important;
+    }
+
+    .client_box {
+        padding: 18px 16px;
+    }
+
+    .cleint-items button {
+        font-size: 12px;
+    }
+
+    .client-header button {
+        font-size: 12px;
+    }
+
+    .client-header-text h2 {
+        line-height: 30px;
+    }
+
+    .client-header-text p {
+        font-size: 12px;
+    }
+
+    .registration-header p {
+        font-size: 12px;
+    }
+
+    .registration-box {
+        padding: 18px 16px;
+    }
+
+    .cleint-items h5 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .reg-table table tr td {
+        font-size: 12px;
+    }
+
+    .cards-price {
+        font-size: 30px;
+    }
+
+    .cards-dates h3 {
+        font-size: 20px;
+    }
+
+    .client-header-text h2 {
+        font-size: 20px;
+    }
+
+    .registration-header h2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1250px) {
+    .reg-table table tr td {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .sidenavigation {
+        background: #002C11;
+        width: 18%;
+    }
+
+    .reg-table table tr td {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}
+
+@media(max-width:991px) {
+    .sidenavigation {
+        width: 5%;
+    }
+
+    .sidenavigation ul li a span {
+        display: none;
+    }
+
+    .sidenavigation ul li a {
+        padding: 0px;
+    }
+
+    .sidenavigation {
+        width: 5%;
+        padding: 5px;
+    }
+
+    .sidenavigation ul li a {
+        padding: 15px 0px;
+        justify-content: center;
+    }
+
+    .main-content {
+        width: 95%;
+    }
+
+    .sidenavigation {
+        width: 7%;
+    }
+
+    .cards_section {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .our-cards {
+        width: 48%;
+    }
+
+    .clients_section {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .client_box {
+        width: 100%;
+    }
+
+    .registration-box {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .our-cards {
+        width: 100%;
+    }
+
+    .chart-circle img {
+        margin: auto;
+    }
+
+    .sidenavigation {
+        width: 12%;
+    }
+
+    .main-content {
+        width: 88%;
+
+    }
+
+    .logo-content h1 {
+        font-size: 18px;
+    }
+
+    .header-content {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .reg-table {
+        overflow-x: scroll;
+    }
+
+    .reg-table table {
+        width: 1200px;
+        overflow-x: scroll;
+    }
+
+    .reg-table table tr td {
+        line-height: 30px;
+    }
+
+    .registration-header {
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+}
+
+@media(max-width:400px) {
+    .sidenavigation {
+        width: 15%;
+    }
+
+    .main-content {
+        width: 85%;
+    }
+
+}
